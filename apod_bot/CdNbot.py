@@ -43,6 +43,7 @@ def visual_fov_calc(entrada):
     objeto_dec = sc.icrs.dec.deg
 
     # Obtenemos la url de la imagen
+    # Listado de parámetros posibles en : http://alasky.u-strasbg.fr/hips-image-services/hips2fits
     url_base = 'http://alasky.u-strasbg.fr/hips-image-services/hips2fits?'
     url_params_imagen = 'hips={}&width={}&height={}&format={}'.format(survey,
                                                                       width,
